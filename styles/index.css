@@ -203,3 +203,144 @@ body {
     align-items: flex-start;
     flex-direction: column; 
 }
+
+.awards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1110px;
+    width: 100%;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 0 20px;
+
+}
+
+.awards-container{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px; 
+}
+
+.awards-site {
+    color: #111111;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.awards-kit {
+    color: #111111;
+    font-size: 16px;
+    grid-column: 4/5;
+    margin-top: 38px;
+}
+
+.awards-kit>p {
+    line-height: 1.6;
+}
+
+.awards-year {
+    color: #111111;
+    font-size: 16px;
+    text-align: end;
+    margin-top: 38px;
+}
+
+.awards-kit-info {
+    color: #111111;
+    font-size: 16px;
+    grid-column: 4/5;
+}
+
+.awards-best {
+    color: #111111;
+    font-size: 21px;
+    font-weight: bold;
+    grid-column: 2/3;
+}
+
+.awards-template {
+    color: #111111;
+    font-size: 16px;
+    grid-column: 4/5;
+    margin-top: 18px;
+}
+
+.awards-template>p {
+    line-height: 1.6;
+}
+
+.awards-year-second{
+    text-align: end;
+    margin-top: 18px;
+}
+
+
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footermain {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 20px; 
+    border-top: 1px solid black;
+}
+
+.footer-left {
+    margin-top: 20px;
+}    
+
+.footer-right {
+    display: inline-flex;
+    margin-top: 18px;
+}
+
+.footer-list {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+}
+
+.footer-link>a {
+    color: #111111;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+} 
+
+.footer-link>a:hover {
+    text-decoration: underline;
+    color: rgb(241, 240, 240);
+    background-color: #373cc2;
+    border-radius: 5px;
+}
+
+.footer-socialmedia {
+    max-width: 95px;
+
+}
+
+.logo-footer {
+    width: 100%;
+}
+
